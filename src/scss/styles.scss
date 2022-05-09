@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+@use 'custom';
+
+//Components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixings';
+@use 'components/typography';
+
+//Sections
+@use 'sections/navbar';
+@use 'sections/intro';
+@use 'sections/companies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/portfolio';
+@use 'fontawesome';
+@use 'sections/get-started';
+@use 'sections/footer';

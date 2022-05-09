@@ -1,0 +1,30 @@
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="row text-center mt-5">
+            <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+            <div class="heading-line"></div>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi asperiores facere assumenda mollitia obcaecati? Dolores aspernatur dolorem, delectus blanditiis harum fuga cumque facere consequuntur, impedit suscipit, aliquid quibusdam. Nesciunt, nulla.</p>
+        </div>
+        <div class="row mt-5 mb-4 g-3 text-center">
+            <div class="col-md-12">
+                <button class="btn mx-1 btn-outline-primary" type="button">All</button>
+                <button class="btn mx-1 btn-outline-primary" type="button">website</button>
+                <button class="btn mx-1 btn-outline-primary" type="button">design</button>
+                <button class="btn mx-1 btn-outline-primary" type="button">mockup</button>
+            </div>
+        </div>
+        <div class="row">
+            <div *ngFor="let item of items; let i = index" class="col-lg-4 col-md-6">
+                <div class="portfolio--box shadow">
+                    <img class="img-fluid" src="/assets/pictures/people.jpg" alt="people"/>
+                    <div class="portfolio--info">
+                        <div class="caption">
+                            <h4>project name goes here</h4>
+                            <p>category project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

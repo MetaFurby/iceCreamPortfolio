@@ -16,6 +16,7 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "typeRoots": [ "./types", "./node_modules/@types"],
     "target": "es2017",
     "module": "es2020",
     "lib": [
@@ -23,6 +24,7 @@
       "dom"
     ]
   },
+  "exclude": ["node_modules", "typings"],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
